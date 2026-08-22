@@ -427,7 +427,9 @@ section{ padding: 100px 24px; }
   border: 1px solid var(--line);
   padding: 6px 14px;
   border-radius: 20px;
+  transition: color .2s, border-color .2s;
 }
+.cert-item:hover{ color: var(--signal); border-color: var(--signal); }
 
 /* ============ CONTACT ============ */
 .contact-inner{
